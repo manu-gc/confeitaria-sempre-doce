@@ -16,9 +16,20 @@ body {
 }
 
 header {
-    background-color: #f8b600;
+    display: flex;
+    background-color:#F1B747;
     color: rgb(248, 245, 241);
     padding: 20px;
+}
+
+.logo {
+    width: 0;
+}
+
+.logo img {
+    width: 150px; 
+    height: auto; 
+    margin-left: 5px;
 }
 
 header h1 {
@@ -90,7 +101,7 @@ nav ul li a:hover {
 }
 
 footer {
-    background-color: #ddc061;
+    background-color:#F1B747;
     text-align: center;
     color: white;
     padding: 10px;
