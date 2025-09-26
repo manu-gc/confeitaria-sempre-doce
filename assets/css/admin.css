@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Libertinus Sans", sans-serif;
+}
+
+body {
+    background-image: url("..//img/bolo-fundo.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 3px solid #e7c787;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f1d397;
+}
+
+div h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+input {
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+div {
+    text-align: center;
+    margin: 100px auto 0 auto; 
+    width: 700px; 
+    border-radius: 12px;
+    padding: 30px;
+    background-color:#E6AC48;
+}
+
+div h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+input {
+    height: 30px;
+    width: 200px;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+label {
+    font-size: 20px;
+}
+
+button {
+    height: 50px;
+    width: 260px;
+    border: 2px solid #bc8e31;
+    font-size: 30px;
+    background-color: #f1e2c3;
+}
+
+button:hover {
+    cursor: pointer;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #f1e2c3;
+}
+
+a:hover {
+    text-decoration: underline;
+}
