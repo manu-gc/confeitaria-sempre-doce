@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Libertinus Sans", sans-serif;
+    font-family: "Lora", serif;
 }
 
 body {
-    background-image: url("..//img/bolo-fundo.webp");
+    background-image: url("..//img/fundo.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -14,11 +14,12 @@ body {
 div {
     text-align: center;
     margin: 0 auto;
-    margin-top: 100px;
-    border: 3px solid #e7c787;
-    border-radius: 5px;
-    padding: 20px;
-    background-color: #f1d397;
+    margin-top: 65px;
+    border: 1px solid #f9f0dc;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #eaac39;
+    width: 50%;
 }
 
 div h1 {
@@ -27,65 +28,47 @@ div h1 {
 }
 
 input {
-    height: 40px;
-    width: 200px;
-    font-size: 20px;
-    border: 2px solid white;
-    border-radius: 5px;
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+   height: 30px;
+   width: 200px;
+   font-size: 20px;
+   padding: 10px;
+   border: 2px solid #cd9d3d; 
+   border-radius: 10px;
 
-body {
-    background-color: #ffffff;
-}
-
-div {
-    text-align: center;
-    margin: 100px auto 0 auto; 
-    width: 700px; 
-    border-radius: 12px;
-    padding: 30px;
-    background-color:#E6AC48;
-}
-
-div h1 {
-    margin-bottom: 20px;
-    font-size: 50px;
-}
-
-input {
-    height: 30px;
-    width: 200px;
-    font-size: 15px;
-    border: 2px solid white;
-    border-radius: 5px;
 }
 
 label {
-    font-size: 20px;
-}
-
-button {
-    height: 50px;
-    width: 260px;
-    border: 2px solid #bc8e31;
-    font-size: 30px;
-    background-color: #f1e2c3;
+    display: inline-block;
+    font-size: 25px; 
+    width: 250px;
+    border: 2px solid #cc9d40;
+    border-radius: 15px;
+    color: rgb(24, 23, 23);
+    background-color: #fadb9e; 
+    margin-bottom: 10px;
+    padding: 5px;
 }
 
 button:hover {
     cursor: pointer;
-    color: #ffffff;
+    color: #dc6d05;
+    
 }
+
+button {
+    font-size: 25px;
+    background-color: rgb(243, 200, 131);
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
 
 a {
     text-decoration: none;
-    font-size: 20px;
-    color: #f1e2c3;
+    font-size: 25px;
+    color: rgb(164, 105, 3);
 }
 
 a:hover {
